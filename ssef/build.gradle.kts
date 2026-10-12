@@ -37,7 +37,7 @@ dependencies {
     implementation("cz.mormegil:lazysodium-java:6.2.0")
     implementation("net.java.dev.jna:jna:5.19.1")
     implementation(rootProject)
-    testImplementation(platform("org.junit:junit-bom:6.0.0"))
+    testImplementation(platform("org.junit:junit-bom:6.1.3"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     testImplementation(kotlin("test"))
